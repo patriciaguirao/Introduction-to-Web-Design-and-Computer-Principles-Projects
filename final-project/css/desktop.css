@@ -1,0 +1,296 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#wrap{
+    border : solid 0px black;
+    margin : 0 auto;
+}
+
+header{
+    border : solid 0px black;
+    height: 60px;
+    display : flex;
+    justify-content: space-between;
+    background-color: #87CEEB;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    align-items: center;
+}
+
+#logo{
+    border: solid 0px black;
+    font-size: 32px;
+    margin-left: 100px;
+}
+
+#logo a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    font-size: 24px;
+    margin-left: -300px;
+}
+
+nav ul a li{
+    border: solid 0px black;
+    margin-right: 5px;
+    color: white;
+}
+
+nav ul a:link,
+nav ul a:visited {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul a:hover,
+nav ul a:active {
+    text-decoration: underline;
+}
+
+.marginTop{
+    margin-top: 30px;
+}
+
+.marginSides{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#resumeContent{
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#schoolContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gradeSchoolImages {
+    display: flex;
+    justify-content: center;
+    margin: 20px -10px; 
+}
+
+.gradeSchoolImages img {
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 10px;
+}
+
+#projectsContent{
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cardImg {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardBtn {
+    height: 40px;
+}
+
+#goalsContent{
+    text-align: center;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #00688B;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: white;
+}
+
+.left {
+    right: 25.145%;
+}
+
+.right {
+    left: 25.53%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid black;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #00688B;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid black;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #00688B transparent transparent;
+}
+  
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #4F9FD8;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.right::after {
+    left: -16px;
+}
+  
+.content {
+    padding: 20px 30px;
+    background-color: #00688B;
+    position: relative;
+    border-radius: 6px;
+}
+
+.content img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#travelContent{
+    text-align: center;
+}
+
+#tattoos {
+    text-align: center;
+}
+
+#tattoosContent1,
+#tattoosContent2 {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#tattoosContent2 ol {
+    text-align: center;
+}
+
+#tattoosContent2 li {
+    text-align: left;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.video-container {
+    position: relative;
+    width: 48%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1;
+    font-size: 24px;
+}
+
+.pdf {
+    width: 800px;
+}
+
+.smIcon {
+    font-size: 36pt;
+    color: white;
+}
+
+footer{
+    background: #87CEEB;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerActions{
+    border: solid 0px black;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

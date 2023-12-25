@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poverty In The Philippines</title>
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Boostrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="row">
+            <div class="col-md-12 noPadding">
+                <!-- NAV START -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">Poverty In The Philippines</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="learn.html">Learn</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="donate.html">Help</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Issues
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="learn.html#food/water">Food/Water</a></li>
+                              <li><a class="dropdown-item" href="learn.html#housing">Housing</a></li>
+                              <li><a class="dropdown-item" href="learn.html#healthcare">Healthcare</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <a href="donate.html">
+                            <button class="btn btn-danger" type="submit">Donate</button>
+                        </a>
+                      </div>
+                    </div>
+                  </nav>
+                <!-- NAV END -->
+            </div>
+        </header>
+        <div id="hero" class="row">
+            <div class="col-md-12 noPadding">
+                <!-- SLIDESHOW START -->
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/food1.jpeg" class="d-block w-100" alt="An image of hungry children.">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Hungry Children</h5>
+                          <p>Millions of Filipino kids are starving.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/housing1.webp" class="d-block w-100" alt="An image of a poor settlement admist the skyline of Manila’s financial district.">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>A Poor Settlement</h5>
+                          <p>Many Filipino families lack adaquete shelter.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/healthcare1.jpeg" class="d-block w-100" alt="An image of a crowded hospital.">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>A Crowded Hospital</h5>
+                          <p>Many Filipinos can't afford healthcare.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <!-- SLIDESHOW END -->
+        </div>
+        <div id="issues" class="row marginTop">
+            <div class="col-md-4 d-flex justify-content-center marginTop">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/water.webp" class="card-img-top cardImg" alt="An image of children drinking from a water pump.">
+                    <div class="card-body">
+                      <h5 class="card-title">Children Drinking From A Pump</h5>
+                      <p class="card-text">57 million Filipinos lack access to a reliable, safely managed source of water.</p>
+                      <a href="learn.html#food/water" class="btn btn-primary issueBtn">Learn More</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center marginTop">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/housing2.jpeg" class="card-img-top cardImg" alt="An image of poor housing conditions.">
+                    <div class="card-body">
+                      <h5 class="card-title">Poor Housing Conditions</h5>
+                      <p class="card-text">70 million Filipinos live in substandard housing and 4.5 million Filipinos are homeless.</p>
+                      <a href="learn.html#housing" class="btn btn-primary issueBtn">Learn More</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center marginTop">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/healthcare2.webp" class="card-img-top cardImg" alt="An image of families being taken care of on the floor.">
+                    <div class="card-body">
+                      <h5 class="card-title">Lack Of Healthcare</h5>
+                      <p class="card-text">60 million Filipinos experience healthcare poverty.</p>
+                      <a href="learn.html#healthcare" class="btn btn-primary issueBtn">Learn More</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div id="about" class="row marginTop">
+            <div class="col-md-12">
+                <h1 class="display-4 d-flex justify-content-center">About Us</h1>
+                <p>In the heart of the enchanting archipelago of the Philippines lies a poignant reality that demands our collective attention – poverty. As we navigate the vibrant tapestry of this nation, we cannot ignore the stark contrast between its natural beauty and the persistent struggles faced by many of its citizens. Poverty In The Philippines is more than just a website; it's a digital platform dedicated to shining a light on the stories of resilience and hope that emerge from the depths of economic hardship.</p>
+                <p>Our mission is to bridge the gap between awareness and action. Poverty, a complex and multifaceted issue, requires a united effort to create lasting change. By delving into the narratives of those affected, we aim to foster empathy and understanding. It is only through this shared understanding that we can inspire meaningful contributions. Whether you have time to spare or resources to share, your involvement can make a tangible impact. Together, we can weave a safety net for those grappling with the harsh realities of poverty in the Philippines.</p>
+                <p>As you explore the pages of our website, consider the various ways you can join our cause. From volunteering your time to donating essential resources, every gesture counts. Poverty In The Philippines invites you to become an advocate for change, a catalyst for compassion, and a beacon of hope. Let us unite in the spirit of solidarity, transforming awareness into meaningful action. Together, we can rewrite the narrative of poverty and sow the seeds of a brighter future for the resilient people of the Philippines.</p>
+            </div>
+        </div>
+        <footer class="row marginTop">
+            <div class="col-md-6 footerSocials">
+                <h1 class="display-6">Become A Volunteer Today!</h1>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter your e-mail" aria-label="Enter your e-mail" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Join</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a href="https://www.facebook.com/profile.php?id=100010378032893" class="smLink">
+                        <i class="bi bi-facebook smIcon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/patricia.guirao/" class="smLink">
+                        <i class="bi bi-instagram smIcon"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@patriciamguirao" class="smLink">
+                        <i class="bi bi-tiktok smIcon"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/patricia-marie-guirao-40782a1aa/" class="smLink">
+                        <i class="bi bi-linkedin smIcon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 footerNav">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="learn.html">Learn</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="donate.html">Help</a>
+                      </li>
+                    <li>
+                        <a href="donate.html">
+                            <button class="btn btn-danger" type="submit">Donate</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

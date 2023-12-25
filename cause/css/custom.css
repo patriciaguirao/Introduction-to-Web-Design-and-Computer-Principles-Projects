@@ -1,0 +1,215 @@
+.col-md-12, .col-md-6, .col-md-4{
+    border: solid 0px black;
+}
+
+.slideImage{
+    height: 850px;
+    width: auto;
+}
+
+.noPadding{
+    padding: 0px;
+}
+
+footer{
+    min-height: 45vh;
+    background: black;
+    color: white;
+    padding: 100px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer ul li{
+    margin: 30px;
+}
+
+.smLink:link{
+    text-decoration: none;
+    color: pink;
+    margin: 15px;
+}
+
+.smLink:visited{
+    color: green;
+}
+
+.smIcon{
+    font-size: 48pt;
+}
+
+.marginTop{
+    margin-top: 60px;
+}
+
+#mainArea{
+    min-height: 80vh;
+}
+
+.amountBtn{
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.Lpadding20{
+    padding-left: 20px;
+}
+
+.issueBtn{
+    background: blue;
+}
+
+.issueBtn:hover{
+    background: green;
+}
+
+.cardImg{
+    height: 250px;
+}
+
+.card-text{
+    height: 100px;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+    .slideImage {
+        height: 415px;
+        width: auto;
+    }
+    
+    footer {
+        min-height: 45vh; 
+        padding: 30px;
+    }
+
+    .smLink:link {
+        text-decoration: none;
+        color: pink;
+        margin: 0px;
+    }
+    
+    .smLink:visited {
+        color: green;
+    }
+    
+    .smIcon {
+        font-size: 28pt;
+    }
+
+    .issueBox {
+        width: 100%;
+    }
+
+    .issueBox img{
+        width: 100%;
+    }
+
+    .learnIssue {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row#housing {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .issueText h1{
+        text-align: center;
+    }
+
+    .helpBox {
+        width: 100%;
+    }
+
+    .Lpadding20{
+        padding-left: 0px;
+    }
+
+    .amountBtn {
+        display: block;
+        margin: 20px auto;
+        padding: 20px;
+        width: 150px;
+    }
+
+    .footerSocials {
+        width: 100%;
+    }
+
+    .footerNav {
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 480px){
+    .slideImage{
+        height: 320px;
+        width: auto;
+    }
+
+    footer{
+        min-height: 45vh; 
+        padding: 30px;
+    }
+
+    .smLink:link{
+        text-decoration: none;
+        color: pink;
+        margin: 0px;
+    }
+    
+    .smLink:visited{
+        color: green;
+    }
+    
+    .smIcon{
+        font-size: 28pt;
+    }
+
+    .learnIssue {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row#housing {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .issueText h1{
+        text-align: center;
+    }
+
+    #mainArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Lpadding20{
+        padding-left: 0px;
+    }
+
+    .amountBtn {
+        display: block;
+        margin: 20px auto;
+        padding: 20px;
+        width: 150px;
+    }
+
+    .footerNav{
+        display: none;
+    }
+}
